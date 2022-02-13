@@ -12,3 +12,10 @@ request = requests.get(global_url, headers=headers)
 results = request.json()
 
 print(json.dumps(results, sort_keys=True, indent=4))
+
+data  = results['data']
+
+btc__dominance = data['btc_dominance']
+
+
+print(btc__dominance)
