@@ -20,6 +20,7 @@ data = results["data"]
 
 btc__dominance = data['btc_dominance']
 total_market_cap = data['quote'][local_currency]["total_market_cap"]
+total_volume_24h = data['quote'][local_currency]["total_volume_24h"]
 
 
 print(btc__dominance)
